@@ -1,0 +1,122 @@
+.hero-achievement{
+    padding-top: 70px;
+}
+.hero-achievement .row{
+    align-items: center !important;
+}
+.hero-achievement .slid-achievement .handel-img-slid{       
+    width: 100%;
+}
+.hero-achievement .carousel-indicators{
+    display: none !important;
+}
+.hero-achievement .carousel-item{
+    overflow: hidden !important;
+    text-align: center;
+}
+.hero-achievement h2{
+    color: var(--font-color);
+    font-size: 65px !important;
+    font-weight: 900;
+}
+@media screen and (max-width:890px) {
+    .slid-achievement{
+        width: 90% !important;
+    }    
+}
+@media screen and (max-width:770px) {
+    .slid-achievement{
+        width: 100% !important;
+    }    
+}
+@media screen and (max-width:334px){
+    .hero-achievement h2{
+        font-size: 35px !important;
+    }
+}
+@media screen and (max-width:982px){
+    .hero-achievement .slid-imgs{
+        transform: translate(20% , 25%);
+    }
+}
+.hero-achievement h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.hero-achievement p{
+    max-width: 377px;
+}
+.hero-achievement .carousel-control-next-icon{
+    display: none;
+}
+.hero-achievement .carousel-control-prev-icon{
+    display: none;
+}
+.slid-achievement{
+    position: relative;
+    transform: translateX(-30px);
+}
+.prev-achievement{
+    position: absolute;
+    top: 45%;
+    left: -45px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0ch;
+    box-shadow: 0px 3px 6px #00000054;
+}
+.next-achievement{
+    position: absolute;
+    top: 45%;
+    right: -45px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0ch;
+    box-shadow: 0px 3px 6px #00000054;
+}
+@media screen and (max-width:770px){
+    .hero-achievement .slid-imgs{
+        transform: translate(0% , 0%);
+    }
+    .hero-achievement{
+        text-align: center;
+    }
+    .hero-achievement p{
+        margin: auto;
+    }
+    .slid-achievement{
+        transform: translateX(0);
+        margin-top: 60px !important;
+    }
+    .hero-achievement .slid-achievement .carousel-item img{
+        max-width: 465px !important;
+        height: 200px;
+        margin: auto;
+    } 
+    .prev-achievement{
+        top: 45%;
+        left: -20px;
+    }
+    .next-achievement{
+        top: 45%;
+        right: -20px;
+    }   
+}
+@media screen and (max-width:590px){
+    .hero-achievement .slid-achievement .carousel-item img{
+        max-width: 385px !important;
+    }
+    .prev-achievement{
+        top: 76px;
+        left: 10px;
+    }
+    .next-achievement{
+        top: 76px;
+        right: 10px;
+    }
+}

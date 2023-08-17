@@ -1,0 +1,12 @@
+.about-besiness{
+    margin-top: 80px;
+}
+.about-besiness .row{
+    align-items: center !important;
+}
+.about-besiness img{
+    width: 100%;
+}
+.about-besiness p{
+    font-size: 14px;
+}

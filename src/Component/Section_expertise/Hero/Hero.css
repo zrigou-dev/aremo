@@ -1,0 +1,40 @@
+.hero-expertise{
+    background-color: #F5F5F5;
+    padding-top: 40px;
+}
+.hero-expertise img{
+    width: 100%;
+}
+.hero-expertise .row{
+    align-items: center;
+}
+.hero-expertise h2{
+    font-size: 65px;
+    font-weight: 900;
+    color: var(--font-color);
+}
+@media screen and (max-width:334px) {
+    .hero-expertise h2{
+        font-size: 40px !important;
+    }
+}
+.hero-expertise h3{
+    font-size: 24px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+.hero-expertise p{
+    margin-top: 25px;
+    font-size: 14px;
+}
+.hero-expertise p span{
+    margin-right: 20px;
+}
+@media screen and (max-width:767px){
+    .hero-expertise img{
+        margin-top: 30px;
+    }
+    .hero-expertise{
+        text-align: center;
+    }
+}

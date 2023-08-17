@@ -1,0 +1,99 @@
+.modal-header div{
+  text-align: center;
+  width: 100%;
+}
+.modal-header div p{
+    max-width: 402px;
+    margin: auto;
+}
+.modal-header{
+    position: relative;
+}
+.modal-header .btn-close{
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+.btn-nav-contact{
+    background-color: transparent !important;
+    color: var(--font-color) !important;
+    border: 0ch !important;
+    font-size: 13px !important;
+    transition: .3s;
+}
+.h4{
+    color: var(--font-color) !important;
+    font-size: 20px !important;
+    font-weight: 900 !important;
+}
+.modal-title p{
+    font-size: 14px;
+    font-weight: bolder;
+}
+/* .contact form {
+    width: 100%;
+    background-color: red;
+} */
+.modal-body input{
+    height: 46px;
+    width: 100%;
+    margin-bottom: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0ch;
+    box-shadow: 0px 3px 6px #00000008;
+}
+.modal-body textarea{
+    width: 100%;
+    height: 136px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0ch;
+    box-shadow: 0px 3px 6px #00000008;
+}
+.btn-contact-popup{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+.btn-contact-popup button{
+    background-color: var(--main-color);
+    border: 0ch;
+    width: 177px;
+    color: #FFF;
+    font-size: 18px;
+    height: 45px;
+
+}
+.modal-content{
+    background-color: #F8F8F8 !important ;
+    width: 805px !important;
+    transform: translateX(-20%);
+    padding: 33px;
+    margin-top: 40px !important;
+    border-radius: 0ch !important;
+}
+
+/* .content-contact{
+    position: absolute;
+    left: 10px;
+} */
+@media screen and (max-width: 860px) {
+    .modal-content{
+        width: 100% !important;
+        transform: translateX(0%);
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }   
+    .modal-header .btn-close{
+        right: 10px;
+    } 
+}
+.succes-message{
+    text-align: center;
+    color: green;
+    margin-top: 30px;
+}
+.btn-nav-contact:hover{
+    color: #FFF !important;
+}

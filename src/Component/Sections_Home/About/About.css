@@ -1,0 +1,133 @@
+.about{
+    margin-top: 80px;
+}
+.about .row{
+    align-items: center !important;
+}
+.about-hero{
+    background: #F5F5F5;
+    /* padding-top: -90px !important; */
+    margin-bottom: 100px !important; 
+    /* height: 700px; */
+}
+.about img{
+    width: 100% !important;
+}
+.img-about{
+    transform: translateY(100px) ;
+}
+@media screen and(min-width: 1366px) {
+  .about img{
+    transform: translateY(50) !important;
+  }    
+  .no-translate{
+    transform: translate(0px , 0px) !important;
+  }
+}
+
+.head-about{
+    border-left: 3px solid var(--main-color);
+    padding-left: 20px;
+}
+.content-about h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--font-color);
+    text-transform: uppercase;
+}
+.content-about h2{
+    font-size: 30px;
+    color: var(--main-color);
+    font-weight:900 ;
+}
+.content-about p{
+    font-size: 14px;
+}
+.about .cart-experience{
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000016;
+    display: flex;
+    align-items: center;
+    height: 99px;
+    width: 300px;
+    border-bottom: 5px solid var(--main-color);
+    padding: 10px 20px;
+    justify-content: space-between;
+    transform: translate(20px, -30px); 
+}
+.about .cart-experience img{
+    width: 100%;
+}
+.about .cart-experience div{
+    color: var(--font-color);
+}
+.about .cart-experience div p{
+    font-size: 15px;
+    transform: translateY(10px);
+}
+.about .cart-experience h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+@media screen and (max-width:770px){
+    .about img{
+        transform: translateY(-20px);
+    }
+    .no-translate{
+        transform: translateY(0px) !important;
+      }
+    .about .cart-experience{
+        width: 240px;
+        height: 80px;
+    }
+    .about .cart-experience h5{
+        font-size: 16px;
+    }
+    .about .cart-experience div p{
+        font-size: 12px;
+    }
+    .head-about{
+        text-align: center;
+        border-left: 0ch;
+        border-bottom: 4px solid var(--main-color);
+        margin-bottom: 30px;
+    }
+    .btn-contact-about{
+        margin: auto;
+    }
+    .btn-contact-about button{
+        display: block;
+        margin: auto !important;
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+}
+.contact-me{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact-me h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+.contact-me h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.btn-contact-about{
+    margin-top: 25px;
+}
+.btn-contact-about button{
+    background-color: var(--main-color);
+    color: #fff;
+    width: 208px;
+    height: 40px;
+    margin: auto;
+    border: 0ch;
+    margin-right:20px ;
+}
+.btn-contact-about button img{
+    width: 20px !important;
+}

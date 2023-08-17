@@ -1,0 +1,26 @@
+.features{
+    background-color: #F5F5F5;
+    margin-top: 60px;
+}
+.features .feaeture-item{
+    padding-bottom: 15px !important;
+}
+.features h2{
+    font-size: 25px;
+    color: var(--font-color);
+    text-align: center;
+    font-weight: 600;
+    padding-top: 34px;
+    padding-bottom: 60px;
+}
+.features h3{
+    color: #8DAF39;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.features p{
+    font-size: 14px;
+}
+.features .img-drappeux img{
+    width: 100%;
+}

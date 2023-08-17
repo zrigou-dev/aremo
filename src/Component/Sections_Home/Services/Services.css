@@ -1,0 +1,104 @@
+.header-service{
+    display: flex;
+    justify-content: space-between;
+    width:500px ;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+.header-service .heading{
+    color: var(--font-color);
+    text-align: end;
+    width: 227px;
+    margin: auto;
+}
+.header-service .border{
+    height: 75px;
+    margin: 0 10px;
+    width: 5px;
+    background-color: var(--main-color);
+}
+.header-service .content-head-service{
+    width: 280px;
+}
+.header-service .content-head-service p{
+    font-size: 14px;
+}
+.header-service h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-service h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--main-color);
+}
+@media screen and (max-width : 769px){
+    .header-service{
+        display: block;
+        text-align: center;
+        width: fit-content;
+        max-width: 300px;
+    }
+    .header-service .heading{
+        text-align: center ;
+    }
+    .header-service .border{
+        height: 4px;
+        width: 250px;
+        /* margin: auto; */
+    }
+    .header-service p{
+        margin-top: 15px;
+    }
+}
+/* ************************************************************* */
+
+.all-services{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+.service-item{
+    box-shadow: 0px 3px 6px #00000016;
+    margin: auto !important;
+    padding: 10px;
+    padding-top: 27px;
+    max-width: 200px;
+    text-align: center;
+   /* min-width: 220px; */
+    min-height: 230px;
+}
+@media screen and(min-width:1115px) {
+   .service-item{
+    width: 200px !important;
+   }    
+}
+.service-item p{
+    color: var(--font-color);
+    font-size: 16px;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:995px){
+    .all-services{
+        grid-template-columns: repeat(4, 1fr);
+    }    
+}
+@media screen and (max-width:770px){
+    .all-services{
+        grid-template-columns: repeat(3, 1fr);
+    }    
+}
+@media screen and (max-width:590px){
+    .all-services{
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+@media screen and (max-width:334px){
+    .all-services{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,47 @@
+.Nav .nav-link {
+    color: var(--font-color) !important;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    text-align: center;
+    color: var(--font-color);
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: .3s;
+}
+.Nav .nav-link:hover{
+    color: var(--main-color) !important;
+}
+.Nav .bg-light{
+    background-color: #fff !important;
+}
+.Nav .navbar-brand img{
+    width: 110px;
+}
+.Nav .btn-contact{
+    border: 1px solid var(--font-color);
+    padding: 5px 40px !important;
+    margin-left: 40px;
+    box-sizing: initial;
+    transition: .3s;
+}
+.Nav .btn-contact:hover{
+    color: #fff !important;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.Nav .navbar-toggler {
+    border: 0cm !important;
+    color: transparent;
+}
+.navbar-toggler-icon{
+    background-image: url('../../../Assets/Toggler-icon.svg') !important;
+}
+
+
+
+@media screen and (max-width: 990px) {
+    .Nav .nav-link{
+        margin: 0%;
+    }
+}

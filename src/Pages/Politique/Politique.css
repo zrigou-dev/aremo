@@ -1,0 +1,30 @@
+.politique .head-pol h4{
+    text-align: center;
+    font-size: 30px;
+    color: var(--main-color);
+    font-weight: 700;
+}
+.politique .head-pol p{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 60px;
+}
+.politique .head-pol{
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+.politique h5{
+    color: var(--font-color);
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.politique .info{
+    text-align: end;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+.politique .info p:last-child{
+    margin-right: 40px;
+}
